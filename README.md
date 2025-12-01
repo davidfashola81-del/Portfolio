@@ -1,6 +1,3 @@
-
--->
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -226,22 +223,7 @@
     // Ensure focus trap could be added; for brevity we keep modal simple but keyboard-operable
   </script>
 
-  <!-- Local README (human-readable) -->
-  <!--
-  HOW TO DEPLOY (full commands - copy/paste into terminal)
-
-  # in folder with index.html
-  git init
-  git add index.html
-  git commit -m "Initial portfolio"
-  git branch -M main
-  git remote add origin https://github.com/<your-username>/ux-portfolio.git
-  git push -u origin main
-
-  # Then enable GitHub Pages in repo settings: choose Branch "main" and folder "/ (root)"
-  # Or to use gh CLI:
-  gh repo create <your-username>/ux-portfolio --public --source=. --remote=origin
-  gh pages create --branch main --path /
+  
 
   Customize: replace texts, add images, upload resume.pdf and change the link to ./assets/resume.pdf
   -->
